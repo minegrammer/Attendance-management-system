@@ -1,0 +1,18 @@
+body {
+    padding: 50px;
+    background-color: lightgray;
+}
+.starter-template {
+    padding: 40px 50px;
+    background-color: white;
+}
+.form-control{
+    font-size: 50px;
+    width: 200px;
+    height: 100px;
+}
+.btn{
+    width:70%;
+    padding:20px;
+    font-size:40px;
+}

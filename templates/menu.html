@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+
+    <h1>Our laboratory</h1>
+
+    <table class="table table-striped">
+        <thead>
+          <!-- <tr>
+            <th class="h1">名前</th>
+            <th class="h1">状態</th>
+          </tr> -->
+        </thead>
+
+        <tbody>
+          {% for i in range(members_length) %}
+            <tr>
+              <td class="h1"><a href="/select?num={{i}}">{{ members[i] }}</a></td>
+
+              <td class="h1">{{ situations[now_status[i]] }}</td>
+
+            </tr>
+          {% endfor %}
+        </tbody>
+
+    </table>    
+
+
+{% endblock %}
